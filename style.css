@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu+Mono:wght@400;700&display=swap");
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-size: 62.5%;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: "Ubuntu Mono", monospace;
+  font-size: 1.8rem;
+  background-color: #C3E5FB;
+}
+
+.main {
+  border-radius: 2.5rem;
+  max-width: 38rem;
+  background-color: #4EB1F1;
+  padding: 2.5rem;
+  margin: 2.5rem auto;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.container .input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.container .input input {
+  margin-left: 2rem;
+  border-radius: .5rem;
+  width: 8rem;
+  height: 2.5rem;
+}
+
+.container .input label {
+  font-weight: 700;
+}
+
+.container .container-cuadrado, .container .container-triangulo, .container .container-circulo {
+  margin-top: 1.5rem;
+}
+
+.container button {
+  border: none;
+  border-radius: .5rem;
+  background-color: #1961AA;
+  color: white;
+  width: 8rem;
+  height: 2.5rem;
+  -webkit-box-shadow: 3.5px 3.5px 10px 2px #7762ed;
+  box-shadow: 3.5px 3.5px 10px 2px #7762ed;
+}
+
+.container button:hover {
+  -webkit-transform: translate(-1px, -1px);
+          transform: translate(-1px, -1px);
+  cursor: pointer;
+  opacity: 80%;
+}
+
+.bg-amarillo {
+  background-color: #90FBF5;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 31rem;
+}
+
+.bg-blanco {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 31rem;
+}
+
+.bg-red {
+  background-color: #90FBF5;
+  padding: 1rem;
+  border-radius: 1rem;
+  width: 31rem;
+}
+
+.nuevoDiv {
+  margin-top: 2rem;
+  font-weight: 700;
+  padding: 1rem;
+  border-radius: 1rem;
+  text-align: center;
+  width: 25rem;
+  background-color: #72FC72;
+}
+/*# sourceMappingURL=style.css.map */
